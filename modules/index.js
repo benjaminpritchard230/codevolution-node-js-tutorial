@@ -1,2 +1,3 @@
-require("./batman.js");
-require("./superman.js");
+const math = require("./math");
+console.log(math.add(2, 3));
+console.log(math.subtract(5, 3));
